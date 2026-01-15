@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Physics Formula Explorer</title>
+        <meta name="veiwport"
+        content="width=device-width, initial-scale=1.0"/>
+        <link ref="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1>Physics Formula Explorer</h1>
+        <p>Select a topic to explore formulas</p>
+        <select id="topic" onchange="showFormula()">
+            <option value = "">--Select Topic--</option>
+            <option value="speed">Speed</option>
+            <option value="velocity">Velocity</option>
+            <option value="acceleration">Acceleration</option>
+        </select>
+        <div id="formulaBox" class="card hidden">
+            <h2 id="formulaTitle"></h2>
+            <p><strong>Formula:</strong><span id="formula"></span></p>
+            <p><strong>Explanation:</strong><span id="explanation"></span></p>
+            <p><strong>Example:</strong><span id="example"></span></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
