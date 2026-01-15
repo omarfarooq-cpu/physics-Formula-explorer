@@ -1,28 +1,26 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    background: #3d97f1;
-    padding: 30px;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: #d39f18;
+  padding: 30px;
 }
-h1{
-    color:#2c3e50;
+
+h1 {        
+  color: #2c3e50;
 }
-select{
-    padding: 10px;
-    font-size: 16px;
-    margin-top: 15px;
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 15px;
 }
-.card{
-    background: #f4f6f8;
-    max-width: 400px;
-    margin: 30px auto;
-    padding:20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+.card {
+  background: #f4f6f8;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-.card{
-    transition: transform 0.3s ease;
-}
-.card:hover{
-    transform:scale(1.03);
-}
+
